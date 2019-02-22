@@ -3,7 +3,7 @@ package com.miempresa.javatests.util;
 /*import static org.junit.Assert.*;
 */
 // Ejemplo de test Unitario #########
-
+// sin utilizar ningun tipo de libreria
 public class StringUtilTest {
     //psvm public static void main + tab
     public static void main(String[] args) {
