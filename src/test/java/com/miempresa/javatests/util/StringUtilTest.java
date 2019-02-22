@@ -2,22 +2,28 @@ package com.miempresa.javatests.util;
 
 /*import static org.junit.Assert.*;
 */
+// Ejemplo de test Unitario #########
+
 public class StringUtilTest {
     //psvm public static void main + tab
     public static void main(String[] args) {
 
-        String result = StringUtil.repeat("hola", 3);
-        System.out.println(result);
+        //con la opcion REFACTOR - INLINE
+        //la dos lineas se convierten en una sola.
+        assertEquals(StringUtil.repeat("hola", 3), "holaholahola");
 
-        if (result.equals("holaholahola")){
-            System.out.println("Ok");
-        }
+        //este error ya no lo revisa ya que el anterior dio error ya
+        //esto es normal en los tests automaticos.
 
         String result2 = StringUtil.repeat("hola", 1);
-        System.out.println(result2);
+        assertEquals(result2, "hola");
 
-        if (result2.equals("hola")){
-            System.out.println("Ok");
+
+    }
+
+    private static void assertEquals(String actual, String expected) {
+        if (!actual.equals(expected)){
+            throw new RuntimeException(actual + " is not equal to " + expected);
         }
     }
 }
