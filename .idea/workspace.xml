@@ -2,14 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d18f7f1c-652a-400a-ad53-37ffe9a0c9bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/miempresa/javatests/util/PasswordUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/miempresa/javatests/util/PasswordUtilTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/miempresa/javatests/payments/PaymentGateway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/miempresa/javatests/payments/PaymentProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/miempresa/javatests/payments/PaymentRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/miempresa/javatests/payments/PaymentResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/miempresa/javatests/player/Dice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/miempresa/javatests/player/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/miempresa/javatests/payments/PaymentProcessorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/miempresa/javatests/player/PlayerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/miempresa/javatests/util/StringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/miempresa/javatests/util/StringUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/miempresa/javatests/util/StringUtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/miempresa/javatests/util/StringUtilTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/miempresa/javatests/util/StringUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/miempresa/javatests/util/StringUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/miempresa/javatests/util/StringUtilTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/miempresa/javatests/util/StringUtilTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/miempresa/javatests/util/PasswordUtilTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/miempresa/javatests/util/PasswordUtilTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,31 +25,72 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="31" column="10" lean-forward="true" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+            <state relative-caret-position="387">
+              <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/miempresa/javatests/payments/PaymentGateway.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/miempresa/javatests/util/PasswordUtil.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/miempresa/javatests/payments/PaymentProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+            <state relative-caret-position="135">
+              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+              <folding>
+                <element signature="e#524#525#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/miempresa/javatests/util/PasswordUtilTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/miempresa/javatests/payments/PaymentProcessorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            <state relative-caret-position="172">
+              <caret line="13" column="72" selection-start-line="13" selection-start-column="72" selection-end-line="13" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/miempresa/javatests/payments/PaymentRequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+              <folding>
+                <element signature="e#143#144#0" expanded="true" />
+                <element signature="e#179#180#0" expanded="true" />
+                <element signature="e#241#242#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/miempresa/javatests/payments/PaymentResponse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="e#209#210#0" expanded="true" />
+                <element signature="e#245#246#0" expanded="true" />
+                <element signature="e#285#286#0" expanded="true" />
+                <element signature="e#314#315#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -56,6 +101,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
         <option value="JUnit4 Test Class" />
       </list>
@@ -72,13 +119,23 @@
         <option value="$PROJECT_DIR$/src/main/java/com/miempresa/javatests/util/PasswordUtil.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/miempresa/javatests/util/PasswordUtilTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/miempresa/javatests/util/Player.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/miempresa/javatests/player/Dice.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/miempresa/javatests/player/Player.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/miempresa/javatests/player/PlayerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/miempresa/javatests/payments/PaymentStatus.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/miempresa/javatests/payments/PaymentResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/miempresa/javatests/payments/PaymentRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/miempresa/javatests/payments/PaymentGateway.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/miempresa/javatests/payments/PaymentProcessor.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/miempresa/javatests/payments/PaymentProcessorTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="395" />
+    <option name="x" value="664" />
     <option name="y" value="23" />
-    <option name="width" value="1110" />
+    <option name="width" value="707" />
     <option name="height" value="745" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -121,7 +178,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="javatests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javatests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javatests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="javatests" type="462c0819:PsiDirectoryNode" />
+              <item name="payments" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javatests" type="b2602c69:ProjectViewProjectNode" />
@@ -135,14 +201,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javatests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javatests" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javatests" type="b2602c69:ProjectViewProjectNode" />
@@ -156,16 +214,23 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550940889185" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551133180512" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/miempresa/javatests" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.miempresa.javatests.payments" />
+      <recent name="com.miempresa.javatests.player" />
       <recent name="com.miempresa.javatests.util" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.miempresa.javatests.payments" />
+      <recent name="com.miempresa.javatests.player" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -180,20 +245,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PasswordUtilTest">
-    <configuration name="StringUtilTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.miempresa.javatests.util.StringUtilTest" />
-      <module name="javatests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.miempresa.javatests.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.PaymentProcessorTest">
     <configuration name="PasswordUtilTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javatests" />
       <extension name="coverage">
@@ -224,6 +276,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PaymentProcessorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javatests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.miempresa.javatests.payments.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.miempresa.javatests.payments" />
+      <option name="MAIN_CLASS_NAME" value="com.miempresa.javatests.payments.PaymentProcessorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javatests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.miempresa.javatests.player.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.miempresa.javatests.player" />
+      <option name="MAIN_CLASS_NAME" value="com.miempresa.javatests.player.PlayerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StringUtilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javatests" />
       <extension name="coverage">
@@ -239,29 +321,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringUtilTest.testRepeat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javatests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.miempresa.javatests.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.miempresa.javatests.util" />
-      <option name="MAIN_CLASS_NAME" value="com.miempresa.javatests.util.StringUtilTest" />
-      <option name="METHOD_NAME" value="testRepeat" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PaymentProcessorTest" />
+        <item itemvalue="JUnit.PlayerTest" />
         <item itemvalue="JUnit.PasswordUtilTest" />
         <item itemvalue="JUnit.PasswordUtilTest (1)" />
         <item itemvalue="JUnit.StringUtilTest" />
-        <item itemvalue="JUnit.StringUtilTest.testRepeat" />
-        <item itemvalue="Application.StringUtilTest" />
       </list>
     </recent_temporary>
   </component>
@@ -279,39 +345,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StringUtilTest - 2019.02.22 at 16h 48m 25s.xml">
-      <configuration name="StringUtilTest" configurationId="JUnit" />
+    <history-entry file="PlayerTest - 2019.02.25 at 15h 43m 35s.xml">
+      <configuration name="PlayerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringUtilTest - 2019.02.22 at 16h 51m 38s.xml">
-      <configuration name="StringUtilTest" configurationId="JUnit" />
+    <history-entry file="PlayerTest - 2019.02.25 at 15h 43m 38s.xml">
+      <configuration name="PlayerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringUtilTest - 2019.02.22 at 16h 53m 49s.xml">
-      <configuration name="StringUtilTest" configurationId="JUnit" />
+    <history-entry file="PlayerTest - 2019.02.25 at 15h 43m 54s.xml">
+      <configuration name="PlayerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringUtilTest - 2019.02.23 at 09h 34m 42s.xml">
-      <configuration name="StringUtilTest" configurationId="JUnit" />
+    <history-entry file="PlayerTest - 2019.02.25 at 15h 43m 58s.xml">
+      <configuration name="PlayerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PasswordUtilTest - 2019.02.23 at 09h 35m 03s.xml">
-      <configuration name="PasswordUtilTest" configurationId="JUnit" />
+    <history-entry file="PlayerTest - 2019.02.25 at 15h 57m 39s.xml">
+      <configuration name="PlayerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PasswordUtilTest - 2019.02.23 at 09h 36m 19s.xml">
-      <configuration name="PasswordUtilTest" configurationId="JUnit" />
+    <history-entry file="PlayerTest - 2019.02.25 at 15h 57m 54s.xml">
+      <configuration name="PlayerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PasswordUtilTest - 2019.02.23 at 09h 42m 31s.xml">
-      <configuration name="PasswordUtilTest" configurationId="JUnit" />
+    <history-entry file="PaymentProcessorTest - 2019.02.25 at 16h 48m 56s.xml">
+      <configuration name="PaymentProcessorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PasswordUtilTest - 2019.02.23 at 09h 52m 40s.xml">
-      <configuration name="PasswordUtilTest" configurationId="JUnit" />
+    <history-entry file="PaymentProcessorTest - 2019.02.25 at 17h 06m 42s.xml">
+      <configuration name="PaymentProcessorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PasswordUtilTest - 2019.02.23 at 09h 54m 50s.xml">
-      <configuration name="PasswordUtilTest" configurationId="JUnit" />
+    <history-entry file="PaymentProcessorTest - 2019.02.25 at 17h 08m 05s.xml">
+      <configuration name="PaymentProcessorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PasswordUtilTest - 2019.02.23 at 10h 02m 41s.xml">
-      <configuration name="PasswordUtilTest" configurationId="JUnit" />
+    <history-entry file="PaymentProcessorTest - 2019.02.25 at 17h 18m 19s.xml">
+      <configuration name="PaymentProcessorTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="395" y="23" width="1110" height="745" extended-state="0" />
+    <frame x="664" y="23" width="707" height="745" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -319,7 +385,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14513108" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.30120483" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" weight="0.32952693" />
       <window_info anchor="bottom" id="Terminal" weight="0.15160796" />
@@ -369,13 +435,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/miempresa/javatests/util/PasswordUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/miempresa/javatests/util/PasswordUtilTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="251">
@@ -386,10 +445,104 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/miempresa/javatests/util/PasswordUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/miempresa/javatests/player/Dice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#134#135#0" expanded="true" />
+            <element signature="e#168#169#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/miempresa/javatests/player/PlayerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/miempresa/javatests/player/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="31" column="10" lean-forward="true" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+        <state relative-caret-position="387">
+          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/miempresa/javatests/payments/PaymentStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/miempresa/javatests/payments/PaymentResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#209#210#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/miempresa/javatests/payments/PaymentRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <folding>
+            <element signature="e#143#144#0" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/miempresa/javatests/payments/PaymentProcessorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="13" column="72" selection-start-line="13" selection-start-column="72" selection-end-line="13" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/miempresa/javatests/payments/PaymentProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <element signature="e#524#525#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/miempresa/javatests/payments/PaymentGateway.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
