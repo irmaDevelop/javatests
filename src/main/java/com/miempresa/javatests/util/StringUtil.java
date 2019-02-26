@@ -1,6 +1,9 @@
 package com.miempresa.javatests.util;
 
+
 public class StringUtil {
+
+
     public static String repeat(String str, int times){
 
         String result = "";
@@ -15,4 +18,10 @@ public class StringUtil {
         }
         return result;
     }
+
+    public static boolean isEmpty(String str){
+        if (str == null){ return true;}
+        return str.trim().equals("");
+    }
+
 }

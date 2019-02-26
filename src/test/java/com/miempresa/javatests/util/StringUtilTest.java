@@ -10,6 +10,27 @@ import org.junit.Test;
 public class StringUtilTest {
     //psvm public static void main + tab
 
+    /* RETO: 26/02/2019 */
+    @Test
+    public void test_string_not_empty(){
+        Assert.assertFalse(StringUtil.isEmpty("any string"));
+    }
+
+    @Test
+    public void test_string_empty(){
+        Assert.assertTrue(StringUtil.isEmpty(""));
+    }
+
+    @Test
+    public void test_string_empty_also_null(){
+        Assert.assertTrue(StringUtil.isEmpty(null));
+    }
+
+    @Test
+    public void test_string_empty_with_spaces(){
+        Assert.assertTrue(StringUtil.isEmpty("  "));
+    }
+
 
     @Test //indicador que provee JUnit
     public void testRepeatOnce(){
